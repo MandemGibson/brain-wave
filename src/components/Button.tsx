@@ -5,7 +5,7 @@ interface Props {
   className?: string;
   href?: string;
   px?: string;
-  white?: string;
+  white?: boolean;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   children?: ReactNode;
 }
